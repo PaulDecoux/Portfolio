@@ -21,11 +21,31 @@ header {
  }
  nav{
 
-
+   position: absolute;
   width: 20%;
   height: 100%;
   background: #514f4f;
-  vertical-align: middle;
   line-height: 60px;
   color:white;
  }
+
+article {
+  margin-left: 304px;
+  background-color: blue;
+  height:100%;
+  width: 60%;
+  position: absolute;
+}
+
+aside{
+  background-color: black;
+  height: 100%;
+  width: 20%;
+  margin-left:1216px;
+  position: absolute;
+}
+
+footer{
+  background-color: black;
+  margin-top:800px;
+}
